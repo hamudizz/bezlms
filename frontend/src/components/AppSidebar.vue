@@ -89,12 +89,7 @@
 							: 'flex-row space-x-3'
 					"
 				>
-					<Tooltip :text="__('Powered by Learning')">
-						<Zap
-							class="size-4 stroke-1.5 text-gray-700 cursor-pointer"
-							@click="redirectToWebsite()"
-						/>
-					</Tooltip>
+				
 					<Tooltip :text="__('Help')">
 						<CircleHelp
 							class="size-4 stroke-1.5 text-gray-700 cursor-pointer"
@@ -591,6 +586,6 @@ watch(userResource, () => {
 })
 
 const redirectToWebsite = () => {
-	window.open('https://frappe.io/learning', '_blank')
+	window.open('https://lawh.dev', '_blank')
 }
 </script>
